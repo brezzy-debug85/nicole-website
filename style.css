@@ -1,0 +1,98 @@
+
+/* Nicole's Website */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #faf7fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #68358c, #b47bcb);
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+/* Navigation Menu */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: gold;
+  color: #333;
+  transform: translateY(-3px);
+}
+
+/* Main Content */
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Sections */
+section {
+  background: white;
+  margin: 25px 0;
+  padding: 45px 25px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+section h2 {
+  color: #68358c;
+  font-size: 28px;
+}
+
+/* Footer */
+footer {
+  background-color: #68358c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Mobile Friendly */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 25px;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+
+  nav a {
+    padding: 8px 12px;
+  }
+}
